@@ -63,6 +63,7 @@ footer{
     color: #ececec;
     font-size: 30px;
 }
+
 .titolo h1{
     display: inline;
     font-size: 60px;
@@ -71,6 +72,7 @@ footer{
     padding: 0 4px;
     border: 8px solid #ececec;
 }
+
 .titolo h3{
     padding-top: 40px;
     font-size: 30px;
@@ -132,6 +134,7 @@ aside{
     font-size: 20px;
     color: green;
 }
+
 .destro aside, .destro aside:nth-of-type(2){
     margin-bottom: 20px;
 }
@@ -141,6 +144,7 @@ aside{
     text-align: center;
     padding-top: 10px;
 }
+
 .content p{
     text-align: justify;
     padding: 0 20px;
@@ -150,6 +154,7 @@ h2 i{
     color: orange;
     padding-right: 5px;
 }
+
 /*stile per footer*/
 #copyright{
     line-height: 30px;
@@ -172,8 +177,8 @@ footer i{
     padding: 10px 10px;
     font-size: 30px;
 }
-/*effetti vari*/
 
+/*effetti vari*/
 ul li:hover{
     border-bottom: 4px solid lightgreen;
     color: lightgreen;
