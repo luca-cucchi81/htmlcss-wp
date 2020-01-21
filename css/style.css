@@ -100,13 +100,14 @@ aside{
 }
 
 /*stile per testi*/
+
 .content h2{
     text-align: center;
     padding-top: 10px;
 }
 .content p{
-    text-align: justify;
-    padding: 0 20px;
+    text-align: left;
+    padding: 0 10px;
     color: #ececec;
 }
 
