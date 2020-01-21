@@ -149,6 +149,10 @@ aside{
     padding: 0 20px;
 }
 
+h2 i{
+    color: orange;
+    padding-right: 5px;
+}
 /*stile per footer*/
 #copyright{
     line-height: 30px;
