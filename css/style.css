@@ -44,6 +44,29 @@ footer{
     border: 10px solid #ececec;
 }
 
+/*stile per banner*/
+.titolo{
+    width: 80%;
+    height: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ececec;
+}
+
+.titolo h1{
+    display: inline-block;
+    font-size: 60px;
+    letter-spacing: 5px;
+    padding: 0 4px;
+    border: 3px solid #ececec;
+}
+.titolo h3{
+    padding-top: 40px;
+}
+
 /* stile per barra navigazione */
 nav{
     width: 100%;
