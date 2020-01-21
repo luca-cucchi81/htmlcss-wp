@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
   }
 
   .cleafix:after {
@@ -56,15 +56,25 @@ footer{
     color: #ececec;
 }
 
+.banner i{
+    position: absolute;
+    left: 50%;
+    top: 90px;
+    transform: translate(-50%);
+    color: #ececec;
+    font-size: 30px;
+}
 .titolo h1{
-    display: inline-block;
+    display: inline;
     font-size: 60px;
+    font-weight: 700;
     letter-spacing: 5px;
     padding: 0 4px;
-    border: 3px solid #ececec;
+    border: 8px solid #ececec;
 }
 .titolo h3{
     padding-top: 40px;
+    font-size: 30px;
 }
 
 /* stile per barra navigazione */
@@ -122,6 +132,7 @@ aside{
 }
 
 .sinistro aside p{
+    font-size: 20px;
     color: green;
 }
 .destro aside, .destro aside:nth-of-type(2){
@@ -154,7 +165,7 @@ aside{
     border-top: 1px solid;
 }
 
-i{
+footer i{
     display: inline-block;
     margin: 0 70px;
     padding: 10px 10px;
@@ -163,15 +174,14 @@ i{
 /*effetti vari*/
 
 ul li:hover{
-    font-weight: 700;
     border-bottom: 4px solid lightgreen;
     color: lightgreen;
 }
 
-i:hover{
+footer i:hover{
     color: green;
 }
 
-ul li, i:hover{
+ul li, footer i:hover{
     cursor: pointer;
 }
